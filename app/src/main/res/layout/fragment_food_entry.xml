@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/judul_catat_makanan"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <!-- Input nama makanan -->
+        <EditText
+            android:id="@+id/et_nama_makanan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/bg_edittext"
+            android:hint="@string/hint_nama_makanan"
+            android:inputType="textCapSentences"
+            android:padding="14dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/grey_text" />
+
+        <!-- Tombol memilih jam makan, menampilkan TimePickerDialog -->
+        <Button
+            android:id="@+id/btn_pilih_jam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_button_outline"
+            android:text="@string/pilih_jam"
+            android:textAllCaps="false"
+            android:textColor="@color/navy_light" />
+
+        <!-- Input kalori -->
+        <EditText
+            android:id="@+id/et_kalori"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_edittext"
+            android:hint="@string/hint_kalori"
+            android:inputType="number"
+            android:padding="14dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/grey_text" />
+
+        <!-- Tombol simpan ke database -->
+        <Button
+            android:id="@+id/btn_simpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/bg_button_primary"
+            android:text="@string/simpan"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>

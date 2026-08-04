@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_langkah"
+        android:icon="@drawable/ic_step"
+        android:title="@string/menu_langkah" />
+    <item
+        android:id="@+id/nav_makan"
+        android:icon="@drawable/ic_food"
+        android:title="@string/menu_makan" />
+    <item
+        android:id="@+id/nav_ringkasan"
+        android:icon="@drawable/ic_summary"
+        android:title="@string/menu_ringkasan" />
+</menu>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Palet warna utama sesuai request: Hitam + Biru Dongker -->
+    <color name="black">#000000</color>
+    <color name="surface_dark">#121212</color>
+    <color name="card_dark">#1A1A1A</color>
+    <color name="navy">#1E3A8A</color>
+    <color name="navy_light">#3B5BDB</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey_text">#B0B0B0</color>
+    <color name="grey_track">#2A2A2A</color>
+    <color name="green_success">#22C55E</color>
+</resources>

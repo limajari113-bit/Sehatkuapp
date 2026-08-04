@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SehatAku</string>
+
+    <!-- Bottom Navigation -->
+    <string name="menu_langkah">Langkah</string>
+    <string name="menu_makan">Makan</string>
+    <string name="menu_ringkasan">Ringkasan</string>
+
+    <!-- Step Tracker -->
+    <string name="judul_langkah_hari_ini">Langkah Hari Ini</string>
+    <string name="target_langkah">Target: 10.000 langkah</string>
+    <string name="label_jarak">Jarak</string>
+    <string name="label_kalori">Kalori Terbakar</string>
+    <string name="izin_sensor_ditolak">Izin sensor langkah dibutuhkan agar fitur ini berjalan</string>
+
+    <!-- Food Entry -->
+    <string name="judul_catat_makanan">Catat Makanan</string>
+    <string name="hint_nama_makanan">Nama makanan</string>
+    <string name="hint_kalori">Perkiraan kalori (kkal)</string>
+    <string name="pilih_jam">Pilih Jam Makan</string>
+    <string name="simpan">Simpan</string>
+    <string name="makanan_tersimpan">Makanan berhasil dicatat</string>
+    <string name="isi_semua_field">Mohon isi nama makanan dan kalori terlebih dahulu</string>
+
+    <!-- Summary -->
+    <string name="judul_ringkasan">Ringkasan Hari Ini</string>
+    <string name="total_langkah">Total Langkah</string>
+    <string name="total_kalori_makanan">Total Kalori Masuk</string>
+    <string name="daftar_makanan">Daftar Makanan</string>
+    <string name="belum_ada_makanan">Belum ada makanan yang dicatat hari ini</string>
+</resources>
